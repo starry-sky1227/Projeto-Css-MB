@@ -1,0 +1,204 @@
+body {
+    padding: 20px;
+    padding-bottom: 500px;
+}
+
+p {
+    color: green;
+    font-size: 30px;
+}
+
+/* Classes e Ids */
+.meu-paragrafo {
+    background-color: black;
+    color: red;
+}
+
+#titulo-principal {
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    font-family: Helvetica;
+}
+
+/* Elementos da página, listas */
+* {
+    font-family: Arial;
+}
+
+p,
+h1 {
+    border-bottom: 1px solid red;
+}
+
+/* Cores */
+.nome-da-cor {
+    color: pink;
+}
+
+.hexa {
+    color: #99a8e9;
+    background-color: #333;
+}
+
+.rgb {
+    color: rgb(185, 173, 41);
+}
+
+/* Fontes*/
+.serifada {
+    font-family: Georgia;
+}
+
+.sem-serifa {
+    font-family: Helvetica;
+}
+
+.mono-espacada {
+    font-family: 'Courier New';
+}
+
+/* Size e Weight */
+.tamanho-fonte-grande {
+    font-size: 64px;
+}
+
+.tamanho-fonte-pequena {
+    font-size: 12px;
+}
+
+.peso-fonte {
+    font-weight: 700;
+}
+
+.texto-italico {
+    font-style: italic;
+}
+
+/* Box Model */
+.box-model {
+    width: 200px;
+    height: 100px;
+    border: 1px solid blue;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Propriedades de texto */
+.alinhamento {
+    text-align: center;
+}
+
+.transform-minuscula {
+    text-transform: lowercase;
+}
+
+.transform-maiuscula {
+    text-transform: uppercase;
+}
+
+/* Espaçamento de linhas e letras */
+.espacamento-texto {
+    width: 150px;
+    line-height: 40px;
+    letter-spacing: 8px;
+}
+
+/* Links */
+.decoration {
+    text-decoration: none;
+}
+
+.visitado:visited {
+    color: orange;
+}
+
+.estilo-hover:hover {
+    background-color: #1292ae;
+}
+
+/* Link em Button */
+.btn {
+    background-color: #34AE43;
+    border: 3px solid #234966;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    width: 120px;
+    padding: 12px 7px;
+    text-align: center;
+    margin: 20px;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color: #234966;
+}
+
+/* Lista */
+.sem-estilo {
+    list-style: none;
+}
+
+/* Display */
+.inline {
+    width: 50px;
+    height: 50px;
+    background-color: teal;
+    margin: 5px;
+    display: inline-block;
+}
+
+.bloco {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Position Fixed */
+.elemento-fixo {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    background-color: #1292ae;
+    border-bottom: 2px solid #342299;
+    color: #fff;
+}
+
+/* Pseudo Seletor / Pseudo Class */
+.primeiro-elemento p:first-child {
+color: purple;
+font-weight: bold;
+}
+
+/* Pseudo Elemento */
+.primeira-letra::first-letter {
+    font-size: 40px;
+    color: blue;
+    background-color: red;
+    padding: 4px;
+}
+
+/* Especifidade */
+h2 {
+    color: red;
+}
+
+.titulo {
+    color: green;
+}
+
+#meu-titulo-preferido {
+    color: blue;
+}
+
+/* Important */
+h2 {
+    color: purple !important;
+}
